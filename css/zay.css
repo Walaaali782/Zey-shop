@@ -783,6 +783,9 @@ font-weight:300;
 }
 
 /* end footer */
+
+
+
 /* about  */
 /* start about  */
 .about {
@@ -961,6 +964,231 @@ color: #000;
   background-color: #198754;
 }
 /* end brand */
+
+/*  content */
+/* start content */
+.contentrr {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #7673735a;
+}
+.contentrr h2 {
+  padding-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+@media (max-width: 990px) {
+  .contentrr h2 {
+    font-size: 30px;
+}
+
+}
+.contentrr p {
+  font-size: 20px;
+  color:#746f6f;
+  font-weight: 200;
+  padding-bottom: 60px;
+  margin-top: -20px;
+  
+}
+/* end content */
+/* start form  */
+.mmm form {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+
+.mmm .row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.mmm form input[type="email"],
+.mmm  form input[type="text"]
+ {
+  border-radius: 5px;
+  border: 1px solid #a09b9b;
+  flex: 1;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: 8px;
+}
+.mmm form input[type="subject"]
+{
+ border-radius: 5px;
+ border: 1px solid #a09b9b;
+ position: relative;
+ width: 615px;
+ height: 40px;
+ margin-bottom: 15px;
+}
+.mmm form textarea
+{
+ border-radius: 5px;
+ border: 1px solid #a09b9b;
+ position: relative;
+ width: 615px;
+ height: 200px;
+ left: 55px;
+}
+
+
+
+
+
+.mmm form input:focus,
+.mmm form textarea:focus {
+  outline: 5px solid rgba(0, 132, 255, 0.374);
+}
+.mmm form input::placeholder {
+  font-weight: 200;
+  padding: 5px;
+  transition:  var(--main-transition);
+}
+.mmm form input:focus::placeholder,
+.mmm form textarea:focus::placeholder
+  {
+  opacity: 0;
+}
+.mmm form button{
+  border-radius:10px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 100;
+  padding: 15px 20px;
+  cursor: pointer;
+  position: relative;
+  bottom: -45px;
+  left: -50px;
+  margin: 30px 0;
+
+}
+.mmm form p  {
+  position: relative;
+  margin: 0 ;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  left: -112px;
+  color: #6c6969;
+}
+.mmm form .sub  {
+  left: -260px;
+  margin-bottom: 10px;
+}
+.mmm form .mess  {
+  left: -250px;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+
+  .mmm .row{
+    display: inline-block;
+   
+  }
+  .mmm form input[type="subject"]
+  {
+    width: 311px;
+  }
+  .mmm form .sub,.mmm form .mess  
+    {
+      left: -98px;
+  }
+  .mmm form textarea {
+    border-radius: 5px;
+    border: 1px solid #a09b9b;
+    position: relative;
+    width: 322px;
+    height: 200px;
+    left: 57px;
+}
+
+  
+}
+
+/* end  page content */
+/* start friends  */
+.friends-page {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  background-color: #e5e5e5ad;
+  padding-bottom: 60px;
+}
+
+.friends-page .friend {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.friend .box {
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 3px 5px var(--main-color);
+}
+.friend .box .item-image {
+  overflow: hidden;
+  position: relative;
+}
+.friend .box .item-image img {
+  height: 200px;
+  width: 100%;
+}
+.friend .box .stars i {
+  color:#695941;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.friend .box .info h4 {
+  font-family: 'Roboto', sans-serif;
+font-weight:300;
+  font-size: 30px;
+  margin: 20px 0;
+  color: var(--transparent-color);
+
+}
+.friend .box p {
+  font-size: 18px;
+  color: #413f3f;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  
+}
+.friend .box .re{
+  color: #413f3f91;
+  padding-bottom: 0;
+  position: relative;
+
+}
+
+/* End Menu  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
